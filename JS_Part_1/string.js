@@ -37,3 +37,8 @@ let b=null;
 console.log(b);
 console.log(typeof b);
 
+// use of console.log
+console.log("Hello World");
+console.log(123);
+console.log(2+2);
+
