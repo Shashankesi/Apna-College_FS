@@ -12,4 +12,22 @@ let empty="";
 console.log(empty);
 console.log(typeof empty);
 
+// string indices
+
+// let naam="shashank";
+console.log(naam[0]);
+console.log(naam[1]);
+console.log(naam[2]);
+console.log(naam[10]);
+
+console.log(naam.length);
+console.log(typeof naam.length);
+
+//concetenation
+let firstName="Tony";
+let lastName="Stark";
+let fullName=firstName+" "+lastName;
+console.log(fullName);
+
+//
 
