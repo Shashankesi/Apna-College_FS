@@ -29,5 +29,11 @@ let lastName="Stark";
 let fullName=firstName+" "+lastName;
 console.log(fullName);
 
-//
+//null and undefined
+let a;
+console.log(a);
+console.log(typeof a);
+let b=null;
+console.log(b);
+console.log(typeof b);
 
