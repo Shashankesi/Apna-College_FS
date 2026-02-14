@@ -1,5 +1,11 @@
 console.log("Hello World!");
 
+alert("something is wrong");
+console.log("This is a simple log");
+console.error("This is an error");
+
+prompt("please read the given data clearly");
+
 let name = "Shashank";
 console.log(name);
 

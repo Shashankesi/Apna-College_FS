@@ -50,3 +50,19 @@ if(marks >= 90) {
     }else{
         console.log("You have failed.");
     }
+
+    // switch case
+    let date="14th February";
+    switch(date){
+        case "14th February":
+            console.log("It's Valentine's Day for lovers. And it's also black day pulvama attack remembrance day for us.");
+            break;
+        case "15th August":
+            console.log("It's Independence Day for us.");
+            break;
+        case "2nd October":
+            console.log("It's Gandhi Jayanti for us.");
+            break;
+        default:
+            console.log("It's just a normal day.");
+    }

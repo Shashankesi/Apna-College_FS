@@ -1,6 +1,6 @@
-let num=12;
-if((num%3===0) && ( (num+1==15) || (num-1==11))){
-    console.log("Safe");
+let newNum=20;
+if(newNum % 10 ==0){
+    console.log("it's a good number")
 }else{
-    console.log("unSafe");
+    console.log("It's bad number");
 }

@@ -49,3 +49,41 @@ if((num%3===0) && ( (num+1==15) || (num-1==11))){
 }else{
     console.log("unSafe");
 }
+
+// use switch case statement to find the day of the week based on the number given by user
+let dayNum = 3;
+switch(dayNum){
+    case 1:
+    console.log("Today is Monday");
+    break;
+    case 2:
+        console.log("Today is Tuesday");
+        break;
+    case 3:
+        console.log("Today is Wednesday");
+        break;
+    case 4:
+        console.log("Today is Thursday");
+        break;
+    case 5:
+        console.log("Today is Friday");
+        break;
+    case 6:
+        console.log("Today is satuarday");
+        break;
+    case 7:
+        console.log("Today is holiday");
+        break;
+    default:
+        console.log("Enter correct date between 1-7");
+}
+
+//create a number variable num with some value 
+// now print "good"if the number is divisible by 10 and "bad" if not
+
+let newNum=20;
+if(newNum % 10 ==0){
+    console.log("it's a good number")
+}else{
+    console.log("It's bad number");
+}
