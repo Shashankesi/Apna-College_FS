@@ -34,3 +34,19 @@ if(marks >= 90) {
 } else {
     console.log("Grade: F");
 }
+
+    // nested if-else condition
+    // let marks1=45;
+    // we are using above declared marks->85 
+    if(marks>=80){
+        console.log("You are eligible for scholarship.");
+        if(marks>=90){
+            console.log("You will get 100% scholarship.");
+        } else if(marks>=80){
+            console.log("You will get 50% scholarship.");
+        } 
+    }else if(marks>=40){
+        console.log("You are eligible for re-exam.");
+    }else{
+        console.log("You have failed.");
+    }
