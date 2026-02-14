@@ -88,3 +88,23 @@ if(newNum % 10 ==0){
     console.log("It's bad number");
 }
 
+// write a program to find the gratest in the given 3 number
+let n1=23;
+let n2=21;
+let n3=25;
+    if(n1>n2 && n1>n3){
+        console.log(`The greatest number is ${n3}`);
+    }else if(n2>n1 && n2>n3){
+        console.log(`The greatest number is ${n2}`);
+    }else{
+        console.log(`The greates number is ${n3}`);
+    }
+
+    // to check if the given two number last digit is end's with 2 or not
+    let num1=32;
+    let num2=1232;
+    if(num1%10 == num2%10){
+        console.log("The numer end with 2", num1%10);
+    }else{
+        console.log("The number doesn't end with 2");
+    }

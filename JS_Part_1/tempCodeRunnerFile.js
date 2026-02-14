@@ -1,6 +1,7 @@
-let newNum=20;
-if(newNum % 10 ==0){
-    console.log("it's a good number")
-}else{
-    console.log("It's bad number");
-}
+    let num1=32;
+    let num2=1232;
+    if(num1%10 == num2%10){
+        console.log("The numer end with 2", num1%10);
+    }else{
+        console.log("The number doesn't end with 2");
+    }
