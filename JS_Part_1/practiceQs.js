@@ -87,3 +87,4 @@ if(newNum % 10 ==0){
 }else{
     console.log("It's bad number");
 }
+
