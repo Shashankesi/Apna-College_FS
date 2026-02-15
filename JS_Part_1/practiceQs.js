@@ -108,3 +108,18 @@ let n3=25;
     }else{
         console.log("The number doesn't end with 2");
     }
+
+
+    // for the given string let msg="help!" we have trim it and convert it to upperCase
+    let msg="        help! ";
+    console.log(msg.trim().toUpperCase());
+
+    // for the string->let name=Apna college predict the output for the follwoing
+    //name.slice(4,9);
+    //name.indexOf("na");
+    //name.replace("Apna","Our");
+
+    let Nname="Apna College";
+    console.log(Nname.slice(4,9));
+    console.log(Nname.indexOf("na"));
+    console.log(Nname.replace("Apna","Our"));
