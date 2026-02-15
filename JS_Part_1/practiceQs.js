@@ -119,7 +119,7 @@ let n3=25;
     //name.indexOf("na");
     //name.replace("Apna","Our");
 
-    let Nname="Apna College";
+    let Nname="Apna College";// ->
     console.log(Nname.slice(4,9));
     console.log(Nname.indexOf("na"));
     console.log(Nname.replace("Apna","Our"));
