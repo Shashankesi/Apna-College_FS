@@ -1,14 +1,14 @@
-console.log("Hello World!");
+// console.log("Hello World!");
 
-alert("something is wrong");
-console.log("This is a simple log");
-console.error("This is an error");
+// alert("something is wrong");
+// console.log("This is a simple log");
+// console.error("This is an error");
 
-    //Taketheuser'sname&ageasinputusingprompts.Thenreturnbackthefollowingstatementtotheuserasanalert(bysubstitutingtheirname&age):
-    let personName=prompt("Please enter your name: ");
-    let age=prompt("Please enter your age: ");
+//     //Taketheuser'sname&ageasinputusingprompts.Thenreturnbackthefollowingstatementtotheuserasanalert(bysubstitutingtheirname&age):
+//     let personName=prompt("Please enter your name: ");
+//     let age=prompt("Please enter your age: ");
 
-    console.log(`${personName} is ${age} year old`);
+//     console.log(`${personName} is ${age} year old`);
 
 // prompt("please read the given data clearly");
 
@@ -66,3 +66,12 @@ console.error("This is an error");
 // } else {
 //     console.log("Grade: F");
 // }
+
+
+// declaring array
+let student1="Aman";
+let student2="Shashank";
+let student3="Aash";
+
+let students=["Aman","Shashank","Aash"];
+console.log(students);
