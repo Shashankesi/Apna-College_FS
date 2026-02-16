@@ -115,9 +115,9 @@ let n3=25;
     console.log(msg.trim().toUpperCase());
 
     // for the string->let name=Apna college predict the output for the follwoing
-    //name.slice(4,9);
-    //name.indexOf("na");
-    //name.replace("Apna","Our");
+    name.slice(4,9);
+    name.indexOf("na");
+    name.replace("Apna","Our");
 
     let Nname="Apna College";// ->
     console.log(Nname.slice(4,9));
