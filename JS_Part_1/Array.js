@@ -112,7 +112,7 @@ fruit.splice(1,0,"Orange");
 console.log(fruit)
 
 //Replace Element
-let numbers=[1,2,3,4,5];
+let numbers=[1,2,3,4,6];
 numbers.splice(2,1,99);
 console.log(numbers);
 
