@@ -117,3 +117,21 @@ numbers.splice(2,1,99);
 console.log(numbers);
 
 
+// sort: JS has in-built sort function .sort()
+let num=[23,5,23,1,45,32,12];
+//->in this way the sort will be done random based on the array
+// num.sort();
+// console.log(num);
+
+// correct way to sort
+num.sort(function(a, b) {
+  return a - b;
+});
+
+console.log(num);
+
+// for sorting the names
+let name=["Shashank","Aash","God"];
+console.log(name.sort());
+
+
