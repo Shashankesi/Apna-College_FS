@@ -123,3 +123,33 @@ let n3=25;
     console.log(Nname.slice(4,9));
     console.log(Nname.indexOf("na"));
     console.log(Nname.replace("Apna","Our"));
+
+
+//let months = ['january', 'july', 'march', 'august'];->['july', 'june', 'march', 'august']
+let months = ['january', 'july', 'march', 'august'];
+
+months.splice(0, 2, 'july', 'june');
+
+console.log(months);
+
+//Return Index of "javascript" After Reversing
+let arr = ['c', 'c++', 'html', 'javascript', 'python', 'java', 'c#', 'sql'];
+arr.reverse();
+let index = arr.indexOf('javascript');
+console.log(index);
+console.log(arr.indexOf('javascript'));
+
+
+// array reference
+let a1=[1];
+let a2=[1];
+console.log(a1==a2);
+console.log(a1===a2);
+
+
+let a3=['a','b'];
+let a4=a3;
+a4.push('c');
+console.log(a3==a4);
+
+
