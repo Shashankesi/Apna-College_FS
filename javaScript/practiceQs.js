@@ -152,5 +152,52 @@ let a4=a3;
 a4.push('c');
 console.log(a3==a4);
 
-// nested array
-let nums=
+// create a nested array to show the following tic-tac-toe game state
+/*
+   X ,null,O
+  null,X,null
+  O,null, X
+*/
+
+let tic=[['X',null,'O'],
+         [null,'X',null],
+         ['O',null,'X']];
+console.log(tic);
+
+console.log(tic[0][0]);
+
+
+//Write a JavaScript program to get the first n elements of an array.
+let n=[7,8,9,-2];
+let d=3;
+console.log(n.slice(0,d));
+
+//Write a JavaScript program to get the last n elements of an array.
+let nu=[7,8,9,-2];
+let ni=2;
+console.log(nu.slice(ni,nu.length));
+
+// to check whether the string is empty or not
+ let st="hello!..";  //prompt("please enter the string"); -> this is for taking input on web page
+    if(st.length==0){
+        console.log("String is empty!..");
+    }else{
+        console.log("String is not empty");
+    }
+
+    // to check from the provided string at the given index the character is lower case or not
+
+    let s="apnACollEge";
+    let idx=3;
+    if(s[idx]==s[idx].toLowerCase()){
+        console.log("It is lower case");
+    }else{
+        console.log("It is not lower case");
+    }
+
+    // now for all the string
+    if(s==s.toLocaleLowerCase){
+        console.log("It is lower case");
+    }else{
+        console.log("It is not");
+    }

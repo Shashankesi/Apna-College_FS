@@ -134,4 +134,13 @@ console.log(num);
 let name=["Shashank","Aash","God"];
 console.log(name.sort());
 
+// nested array
+
+let nums=[[2,3],[3,6],[4,8]];
+console.log(nums);
+console.log(nums[1].length);
+console.log(nums.length);
+console.log(`The value at row 1 and col 1 is : ${nums[1][0]}`); // for printing particular value of the given array ->3
+
+
 

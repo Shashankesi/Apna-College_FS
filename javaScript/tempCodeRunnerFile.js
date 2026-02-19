@@ -1,4 +1,14 @@
-let a3=['a','b'];
-let a4=a3;
-a4.push('c');
-console.log(a3==a4);
+    let s="apnACollEge";
+    let idx=3;
+    if(s[idx]==s[idx].toLowerCase()){
+        console.log("It is lower case");
+    }else{
+        console.log("It is not lower case");
+    }
+
+    // now for all the string
+    if(s==s.toLocaleLowerCase){
+        console.log("It is lower case");
+    }else{
+        console.log("It is not");
+    }
