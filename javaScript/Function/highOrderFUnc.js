@@ -26,10 +26,13 @@ multipleGreeting(greet,3); // Hello! Hello! Hello!
     }   
 
     function oddEvenChecker(request){
+        let n=10;
         if(request==="odd"){
             console.log(!(n%2===0));
+            return odd;
         }else if(request==="even"){
             console.log(n%2===0);
+            return even;
         }else{
             console.log("Invalid request");
         }
