@@ -1,6 +1,3 @@
-console.log("Before try catch block");
-try{
-    console.log(a);
-}catch{
-    console.log("Error is there");
-}
+const sum=(a,b)=>{console.log(a+b);}
+
+sum(2,3);
