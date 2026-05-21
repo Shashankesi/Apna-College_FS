@@ -6,3 +6,9 @@ const cube=(n)=>{
     return n*n*n;
 }
 console.log(cube(3));
+
+// implicit return
+const square=(n)=>n*n;
+console.log(square(4));
+
+// this with arrow function

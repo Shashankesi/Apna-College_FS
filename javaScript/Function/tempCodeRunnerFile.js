@@ -1,3 +1,2 @@
-const sum=(a,b)=>{console.log(a+b);}
-
-sum(2,3);
+setInterval(()=>{
+    console.log("Hii, Everyone!");}, 2000);
