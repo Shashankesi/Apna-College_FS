@@ -9,3 +9,11 @@ arr.forEach(print);
 arr.forEach(function(el){
     console.log(el);
 });
+
+let data=[
+    {name:"Shashank", age:22},
+    {name:"Rohit", age:23},
+    {name:"Rohit", age:23}
+];
+
+data.forEach(print);
