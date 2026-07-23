@@ -1,9 +1,10 @@
-let numbers=[1,2,3,4,5];
-let total=0;
-function sum(...numbers){
-    for(let i=0;i<numbers.length;i++){
-        console.log(numbers[i]);
-        total += numbers[i];
-    }
-    console.log(total);
+const student = {
+    name:'Shashank',
+    username:'shashankesi',
+    age:22,
+    subjects:['Maths','Science','English'],
+    class:'12th',
+    phone: 1234567890
 };
+let{username,age} = student;
+console.log(username,age); // Output: shashankesi 22
